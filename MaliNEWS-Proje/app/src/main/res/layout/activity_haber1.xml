@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/acilirMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4EDF4"
+    tools:context=".Haber1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <include layout="@layout/main_toolbar"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/logoturuncu" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/turuncu"
+            android:text="Twitter'da Mavi Tik satışı yeniden başladı: İşte Türkiye fiyatı"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+        <ImageView
+            android:layout_marginTop="-80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/twiter" />
+        <TextView
+            android:layout_marginTop="-60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:lineSpacingExtra="4dp"
+            android:gravity="center"
+            android:text="Twitter'dan yapılan açıklamaya göre, şirket mavi onay rozeti statüsünü bugünden itibaren abonelerin hizmetine yeniden sunacak
+Bu statü için web kullanıcılarından 8 dolar, Apple IOS kullanıcılarından 11 dolar aylık abonelik ücreti alınacak.
+Twitter Blue'nun Türkiye ücretleri de belli oldu. Apple'ın geliştiricilerden aldığı yüzde 30'luk payı iOS kullanıcılarına yansıtan Twitter'ın aylık ücreti 250 liraya çıktı. Eğer uygulamayı Android tabanlı bir cihazdan ya da internetten alırsanız ücreti 110 lira olacak. "
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/turuncu"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="4dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Ücretli aboneler, kullanıcı adlarını veya profil fotoğraflarını değiştirebilecek ancak onay süreci sonuçlanıncaya kadar mavi tik işareti geçici olarak hesaptan kaldırılacak.
+
+Twitter ayrıca gelecek günlerde, resmi onay rozetini, işletme hesapları için altın renkle, devlet ve çok taraflı hesaplar için gri onay işaretiyle değiştireceğini duyurdu.
+
+Şirket, kasım ayında, kimlik hırsızlığı ihtimali nedeniyle onaylı hesap olarak bilinen mavi tik uygulamasının yeniden başlatılmasını ertelediğini açıklamıştı."
+                android:textSize="12sp" />
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/turuncu"  />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:src="@drawable/twiter2" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TWİTTER MAVİ TİK NEDİR?"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/logoturuncu"
+            android:layout_marginLeft="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/turuncu"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eski tanıma göre Twitter'daki mavi Onay rozeti , kamu menfaatini ilgilendiren bir hesabın orijinal olduğunun bilinmesini sağlar. Mavi rozet alabilmeniz için hesabınızın orijinal, tanınmış ve aktif olması gerekir.
+
+
+Ancak yeni uygulamayla aylık 110 TL veren herkes mavi tik alabilecek.
+"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#fff"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:background="@color/E4EDF4"
+        android:layout_gravity="start">
+        <include layout="@layout/acilirmenu"/>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
